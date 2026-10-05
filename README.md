@@ -1,58 +1,58 @@
-# 💧 Hydration Tracker - watchOS App
+<div align="center">
 
-A complete hydration tracking app for Apple Watch that helps users stay hydrated throughout the day.
+# 💧 Hydration Tracker — watchOS & iOS
+### Native Apple Watch & iPhone Fluid Telemetry, Daily Goal Tracking & Circular Progress Meters
 
-## 📱 Features
+[![watchOS](https://img.shields.io/badge/watchOS-9.0%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/watchos/)
+[![iOS](https://img.shields.io/badge/iOS-17.0%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/ios/)
+[![Swift](https://img.shields.io/badge/Swift-5.9%2B-F05138?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org/)
+[![SwiftUI](https://img.shields.io/badge/UI-SwiftUI-0071E3?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
+[![License](https://img.shields.io/badge/License-MIT-CEFF00?style=for-the-badge&logoColor=black)](LICENSE)
 
-- **Log Water** - Quick add buttons (+250ml, +500ml, +1000ml) and custom amount picker
-- **Progress Ring** - Visual circular progress showing daily intake
-- **Daily Goal** - Set custom hydration goal (manual or weight-based)
-- **Streak Tracking** - Consecutive days meeting hydration goal
-- **Statistics** - View total days, average intake, best day, and weekly progress chart
-- **Recent Logs** - View and delete today's entries
-- **Reminders** - Customizable notification intervals (1-4 hours)
-- **Overhydration Warning** - Alerts when exceeding safe daily limits
-- **Haptic Feedback** - Physical feedback on all actions
-- **Data Persistence** - All data saved locally using UserDefaults
+<br/>
 
-## 🛠️ Technologies Used
+**Hydration Tracker** provides real-time fluid intake monitoring on watchOS and iOS. Built with SwiftUI, it features one-tap volume logging (250ml, 500ml), dynamic circular ring fill animations, goal achievement celebrations, and local notification reminders.
 
-- SwiftUI
-- ObservableObject / @Published
-- UserDefaults
-- UNUserNotificationCenter
-- WatchKit (Haptic Feedback)
-- Combine
+<br/>
 
-## 📁 Project Structure
+[Overview](#-technical-overview) •
+[Features](#-key-features) •
+[Setup & Run](#-how-to-build-and-run) •
+[License](#-license)
 
-```
-Hydration Watch App/
-├── HydrationApp.swift          (App entry point)
-├── Models/
-│   ├── HydrationManager.swift  (Business logic)
-│   └── Models.swift            (Data models)
-├── Views/
-│   ├── ContentView.swift       (Tab navigation)
-│   ├── HomeView.swift          (Main dashboard)
-│   ├── StatisticsView.swift    (Statistics & charts)
-│   ├── RecentLogsView.swift    (Today's entries)
-│   ├── SettingsView.swift      (App settings)
-│   └── AddWaterView.swift      (Custom log sheet)
-└── Assets.xcassets             (App icon)
-```
+</div>
 
-## 🚀 How to Run
+<br/>
 
-1. Clone the repository
-2. Open `Hydration.xcodeproj` in Xcode
-3. Select Apple Watch target
-4. Build and run (⌘R)
+---
 
-## 👨‍💻 Author
+## 📌 Technical Overview
 
-Sheikh Naim
+**Hydration Tracker** provides real-time fluid intake monitoring on watchOS and iOS. Built with SwiftUI, it features one-tap volume logging (250ml, 500ml), dynamic circular ring fill animations, goal achievement celebrations, and local notification reminders.
+
+---
+
+## ✨ Key Features
+
+- **One-Tap Quick Logging**: Rapid fluid intake logging customized for wrist-glance interactions.
+- **Animated Circular Ring Gauge**: Dynamic vector ring visualizing daily percentage completion.
+- **Target Goal Customization**: Configurable daily water intake objectives with historical progress stats.
+- **Local Wrist Reminders**: Timely notifications encouraging consistent hydration throughout the day.
+
+---
+
+## 🚀 How to Build and Run
+
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/snaimio/hydration-tracker.git
+   cd hydration-tracker
+   ```
+2. Open the project in your IDE (Xcode / Android Studio / Browser) and run.
+
+---
 
 ## 📄 License
 
-MIT License - see LICENSE file for details
+This project is licensed under the [MIT License](LICENSE).
